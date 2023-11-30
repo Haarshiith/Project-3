@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link ref="stylesheet" href="icon/css/all.min.css">
+    <script src="icon/js/all.min.js"></script>
+    <style>
+        *{
+            background-color: lightblue;
+        }
+        .game{
+            border: 2px solid black;
+            padding: 50px;
+            width:max-content;
+            background: linear-gradient(to right, rgb(112, 98, 51) 15%, rgb(250, 231, 201) 76%);
+            margin-top: 150px;
+            margin-left: 500px;
+        }
+        .box{
+            border: 2px solid black;
+            padding: 50px;
+            width:max-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="game">
+    <div class="box">
+
+    <h1><i class="fa-regular fa-eye"></i> Guess The Number <i class="fa-regular fa-eye"></i></h1>
+    <!-- <p><b>From 1 to 10</b></p> -->
+    <h3>From 1 to 10</h3>
+    <input id="number">
+    <button onclick="check()">Guess?</button>
+    <p id="result"><b>You are Right / Wrong</b></p>
+    <p id="score"><b>Score : 10</b></p>
+
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
